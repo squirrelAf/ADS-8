@@ -4,6 +4,7 @@
 #include <queue>
 #include <string>
 #include <vector>
+#include <string>
 
 template <typename T>
 class BST {
