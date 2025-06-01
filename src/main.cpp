@@ -1,12 +1,13 @@
 // Copyright 2021 NNTU-CS
-#include "bst.h"
+#include <iostream>
 #include <string>
+#include "bst.h"
 
-extern void makeTree(BST<std::string>& tree, const char* filename);Add commentMore actions
+extern void makeTree(BST<std::string>& tree, const char* filename);
 extern void displayFrequency(BST<std::string>& tree);
 
 int main() {
-  BST<std::string> wordTree;Add commentMore actions
+     BST<std::string> wordTree;
     const char* inputFile = "src/war_peace.txt";
 
     makeTree(wordTree, inputFile);
