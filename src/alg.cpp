@@ -3,8 +3,9 @@
 #include  <fstream>
 #include  <locale>
 #include  <cstdlib>
-#include  "bst.h"
 #include <string>
+#include  "bst.h"
+
 
 void makeTree(BST<std::string>& tree, const char* filename) {
 std::ifstream inputFile(filename);
