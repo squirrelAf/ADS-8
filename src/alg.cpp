@@ -6,7 +6,6 @@
 #include <string>
 #include  "bst.h"
 
-
 void makeTree(BST<std::string>& tree, const char* filename) {
 std::ifstream inputFile(filename);
     if (!inputFile.is_open()) {
